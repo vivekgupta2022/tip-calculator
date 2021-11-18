@@ -66,9 +66,7 @@ const tipcalcy = () => {
     let Amount = document.getElementById('bill_amount').value;
     let Percentage =  document.getElementById('tip_perc').value;
  let tip = Amount *(Percentage/100);
- alert(tip);
  let Total = tip + Number(Amount);
- alert(Total);
  document.getElementById('tip_total').value = tip;
  document.getElementById('total_bill').value = Total;
 }
